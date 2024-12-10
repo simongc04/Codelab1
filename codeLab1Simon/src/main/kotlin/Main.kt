@@ -30,12 +30,12 @@ fun MainApp() {
 @Composable
 fun ContentScreen() {
     val items = listOf(
-        "Explorando composables",
-        "Creación de interfaces dinámicas",
+        "composables",
+        "interfaces simon",
         "Realizado por Simon",
-        "Aprendiendo Kotlin y Compose",
-        "Manejando estado con remember",
-        "Interactuando con layouts flexibles"
+        "Aprendiendo Kotlin",
+        "Strings e int",
+        "Yendo a ver una peli"
     )
 
     Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
